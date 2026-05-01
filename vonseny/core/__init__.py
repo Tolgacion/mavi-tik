@@ -1,0 +1,1 @@
+# VONSENY core sub-package
