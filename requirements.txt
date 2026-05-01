@@ -1,0 +1,32 @@
+# ── Zorunlu ──────────────────────────────────────────────────────────────────
+requests>=2.31.0          # HTTP istemcisi (Ollama, web araştırma)
+rich>=13.0.0              # Güzel terminal arayüzü
+
+# ── Ses (isteğe bağlı — sesli mod için) ─────────────────────────────────────
+openai-whisper>=20231117  # Yerel konuşma tanıma (GPU opsiyonel)
+sounddevice>=0.4.6        # Mikrofon kaydı
+scipy>=1.11.0             # WAV işleme
+pyttsx3>=2.90             # Metin-to-Konuşma (yerel, offline)
+# torch               # GPU hızlandırma için (isteğe bağlı)
+
+# ── Görüntü (isteğe bağlı — kamera modu için) ────────────────────────────────
+opencv-python>=4.8.0      # Kamera ve görüntü işleme
+ultralytics>=8.0.0        # YOLOv8 nesne tespiti
+numpy>=1.24.0             # Matris işleme
+
+# ── IoT (isteğe bağlı) ────────────────────────────────────────────────────────
+paho-mqtt>=1.6.1          # MQTT broker iletişimi
+pyserial>=3.5             # Arduino / ESP32 seri port
+
+# ── Bilgisayar Kontrolü (isteğe bağlı) ───────────────────────────────────────
+pyautogui>=0.9.54         # Klavye & fare otomasyonu
+psutil>=5.9.0             # Sistem bilgisi (CPU, RAM, süreçler)
+Pillow>=10.0.0            # Ekran görüntüsü
+
+# ── Web Araştırma ─────────────────────────────────────────────────────────────
+beautifulsoup4>=4.12.0    # HTML parse
+lxml>=4.9.0               # Hızlı HTML parser
+duckduckgo-search>=3.9.0  # API key gerektirmeyen arama
+
+# ── Windows SolidWorks (yalnızca Windows) ─────────────────────────────────────
+# pywin32>=306            # Windows COM API (SolidWorks)
